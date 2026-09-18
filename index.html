@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>프레임 코리아 | 필름 한 컷에 담는 대한민국</title>
-<meta name="description" content="대한민국 전 지역의 사진 명소를 자연·도시·이색 테마와 지역별로 소개하는 포토스팟 아카이브.">
-<link rel="canonical" href="https://your-domain-here.com/index.html">
+<meta name="description" content="대한민국 전 지역의 사진 명소를 자연·도시·역사·이색 테마와 지역별로 소개하는 포토스팟 아카이브.">
+<link rel="canonical" href="https://frame-korea.vercel.app/index.html">
 <meta name="naver-site-verification" content="7a67168a113336e0388324147624208194aef949" />
 <meta property="og:title" content="프레임 코리아 | 필름 한 컷에 담는 대한민국">
-<meta property="og:description" content="대한민국 전 지역의 사진 명소를 자연·도시·이색 테마와 지역별로 소개하는 포토스팟 아카이브.">
+<meta property="og:description" content="대한민국 전 지역의 사진 명소를 자연·도시·역사·이색 테마와 지역별로 소개하는 포토스팟 아카이브.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -19,10 +19,11 @@
 </head>
 <body>
 
+<div class="topbar"><div class="wrap topbar-inner"><nav class="topbar-links"><a href="about.html">소개</a><a href="privacy.html">개인정보처리방침</a><a href="terms.html">이용약관</a><a href="contact.html">문의</a></nav></div></div>
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="logo" href="index.html"><span class="logo-frame">FRAME</span>프레임 코리아</a>
-    <nav class="nav-cats"><a href="category-nature.html">자연</a><a href="category-city.html">도시</a><a href="category-unique.html">이색</a><a href="regions.html">지역별</a></nav>
+    <nav class="nav-cats"><a href="category-nature.html">자연</a><a href="category-city.html">도시</a><a href="category-history.html">역사·전통</a><a href="category-unique.html">이색</a><a href="regions.html">지역별</a></nav>
   </div>
 </header>
 
@@ -30,7 +31,7 @@
   <div class="wrap hero-inner">
     <p class="hero-eyebrow">PHOTO SPOT ARCHIVE — KOREA</p>
     <h1>필름 한 컷에 담는 대한민국</h1>
-    <p class="hero-sub">전국 7개 권역, 42곳의 촬영지를 자연 / 도시 / 이색 세 가지 프레임으로 정리했습니다.</p>
+    <p class="hero-sub">전국 7개 권역, 60곳의 촬영지를 자연 / 도시 / 역사·전통 / 이색 네 가지 프레임으로 정리했습니다.</p>
     <div class="hero-frame-strip" aria-hidden="true"></div>
   </div>
 </section>
@@ -38,12 +39,39 @@
   <h2 class="section-title"><span class="frame-no">No. 01</span> 카테고리로 찾기</h2>
   <div class="cat-grid"><a class="cat-card" style="--accent:#3F6C4F" href="category-nature.html">
         <span class="cat-eng">NATURE</span><h3>자연</h3><p>산, 바다, 숲, 계절이 그려내는 풍경</p></a><a class="cat-card" style="--accent:#33547A" href="category-city.html">
-        <span class="cat-eng">CITY</span><h3>도시</h3><p>스카이라인과 야경, 사람이 만든 풍경</p></a><a class="cat-card" style="--accent:#B5732B" href="category-unique.html">
+        <span class="cat-eng">CITY</span><h3>도시</h3><p>스카이라인과 야경, 사람이 만든 풍경</p></a><a class="cat-card" style="--accent:#8A4B32" href="category-history.html">
+        <span class="cat-eng">HERITAGE</span><h3>역사·전통</h3><p>고궁, 성곽, 전통마을이 품은 정취</p></a><a class="cat-card" style="--accent:#B5732B" href="category-unique.html">
         <span class="cat-eng">UNIQUE</span><h3>이색</h3><p>벽화마을, 레트로 거리, 테마 공간</p></a></div>
 </section>
 <section class="wrap section">
   <h2 class="section-title"><span class="frame-no">No. 02</span> 지역으로 찾기</h2>
-  <div class="region-chips"><a class="region-chip" href="region-seoul.html">서울</a><a class="region-chip" href="region-incheon-gyeonggi.html">인천·경기</a><a class="region-chip" href="region-gangwon.html">강원</a><a class="region-chip" href="region-chungcheong.html">충청</a><a class="region-chip" href="region-jeolla.html">전라</a><a class="region-chip" href="region-gyeongsang.html">경상</a><a class="region-chip" href="region-jeju.html">제주</a></div>
+  <div class="map-layout">
+    <svg class="korea-map" viewBox="0 0 320 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="대한민국 지역 지도">
+    <a class="map-region" href="region-gangwon.html">
+      <rect x="170" y="20" width="130" height="90" rx="10" />
+      <text x="235.0" y="65.0" text-anchor="middle" dominant-baseline="middle">강원</text>
+    </a><a class="map-region" href="region-seoul.html">
+      <rect x="60" y="70" width="85" height="55" rx="10" />
+      <text x="102.5" y="97.5" text-anchor="middle" dominant-baseline="middle">서울</text>
+    </a><a class="map-region" href="region-incheon-gyeonggi.html">
+      <rect x="20" y="130" width="110" height="70" rx="10" />
+      <text x="75.0" y="165.0" text-anchor="middle" dominant-baseline="middle">인천·경기</text>
+    </a><a class="map-region" href="region-chungcheong.html">
+      <rect x="140" y="130" width="140" height="70" rx="10" />
+      <text x="210.0" y="165.0" text-anchor="middle" dominant-baseline="middle">충청</text>
+    </a><a class="map-region" href="region-gyeongsang.html">
+      <rect x="190" y="205" width="110" height="130" rx="10" />
+      <text x="245.0" y="270.0" text-anchor="middle" dominant-baseline="middle">경상</text>
+    </a><a class="map-region" href="region-jeolla.html">
+      <rect x="40" y="205" width="140" height="130" rx="10" />
+      <text x="110.0" y="270.0" text-anchor="middle" dominant-baseline="middle">전라</text>
+    </a><a class="map-region" href="region-jeju.html">
+      <rect x="90" y="360" width="110" height="60" rx="10" />
+      <text x="145.0" y="390.0" text-anchor="middle" dominant-baseline="middle">제주</text>
+    </a>
+    </svg>
+    <div class="region-chips"><a class="region-chip" href="region-seoul.html">서울</a><a class="region-chip" href="region-incheon-gyeonggi.html">인천·경기</a><a class="region-chip" href="region-gangwon.html">강원</a><a class="region-chip" href="region-chungcheong.html">충청</a><a class="region-chip" href="region-jeolla.html">전라</a><a class="region-chip" href="region-gyeongsang.html">경상</a><a class="region-chip" href="region-jeju.html">제주</a></div>
+  </div>
 </section>
 <div class="ad-slot">
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2557338953436433" data-ad-slot="1111111111" data-ad-format="auto" data-full-width-responsive="true"></ins>
@@ -52,6 +80,7 @@
 <section class="wrap section">
   <h2 class="section-title"><span class="frame-no">No. 03</span> 지금 주목할 스팟</h2>
   <div class="spot-grid"><a class="spot-card" href="spot/namsan-tower.html">
+  <div class="spot-card-img"><img src="images/namsan-tower-a.jpg" alt="남산서울타워" loading="lazy" width="640" height="480"></div>
   <div class="spot-card-top" style="--accent:#33547A">
     <span class="tag tag-cat">도시</span>
     <span class="tag tag-region">서울</span>
@@ -59,13 +88,31 @@
   <h3>남산서울타워</h3>
   <p class="spot-line">서울 전역이 내려다보이는 야경의 정석</p>
 </a><a class="spot-card" href="spot/naksan-park.html">
+  <div class="spot-card-img"><img src="images/naksan-park-a.jpg" alt="낙산공원" loading="lazy" width="640" height="480"></div>
   <div class="spot-card-top" style="--accent:#33547A">
     <span class="tag tag-cat">도시</span>
     <span class="tag tag-region">서울</span>
   </div>
   <h3>낙산공원</h3>
   <p class="spot-line">성곽 너머로 도심이 겹쳐 보이는 언덕</p>
+</a><a class="spot-card" href="spot/sebitseom.html">
+  <div class="spot-card-img"><img src="images/sebitseom-a.jpg" alt="반포 세빛섬" loading="lazy" width="640" height="480"></div>
+  <div class="spot-card-top" style="--accent:#33547A">
+    <span class="tag tag-cat">도시</span>
+    <span class="tag tag-region">서울</span>
+  </div>
+  <h3>반포 세빛섬</h3>
+  <p class="spot-line">한강 위에 뜬 인공섬과 무지개분수 야경</p>
+</a><a class="spot-card" href="spot/gyeongbokgung.html">
+  <div class="spot-card-img"><img src="images/gyeongbokgung-a.jpg" alt="경복궁" loading="lazy" width="640" height="480"></div>
+  <div class="spot-card-top" style="--accent:#8A4B32">
+    <span class="tag tag-cat">역사·전통</span>
+    <span class="tag tag-region">서울</span>
+  </div>
+  <h3>경복궁</h3>
+  <p class="spot-line">고궁 처마선과 근정전이 만드는 전통 건축의 정수</p>
 </a><a class="spot-card" href="spot/ihwa-mural-village.html">
+  <div class="spot-card-img"><img src="images/ihwa-mural-village-a.jpg" alt="이화동 벽화마을" loading="lazy" width="640" height="480"></div>
   <div class="spot-card-top" style="--accent:#B5732B">
     <span class="tag tag-cat">이색</span>
     <span class="tag tag-region">서울</span>
@@ -73,13 +120,23 @@
   <h3>이화동 벽화마을</h3>
   <p class="spot-line">계단마다 그림이 있는 골목</p>
 </a><a class="spot-card" href="spot/seoul-forest.html">
+  <div class="spot-card-img"><img src="images/seoul-forest-a.jpg" alt="서울숲" loading="lazy" width="640" height="480"></div>
   <div class="spot-card-top" style="--accent:#3F6C4F">
     <span class="tag tag-cat">자연</span>
     <span class="tag tag-region">서울</span>
   </div>
   <h3>서울숲</h3>
   <p class="spot-line">도심 한복판의 사계절 숲</p>
+</a><a class="spot-card" href="spot/baeksasil-valley.html">
+  <div class="spot-card-img"><img src="images/baeksasil-valley-a.jpg" alt="부암동 백사실계곡" loading="lazy" width="640" height="480"></div>
+  <div class="spot-card-top" style="--accent:#3F6C4F">
+    <span class="tag tag-cat">자연</span>
+    <span class="tag tag-region">서울</span>
+  </div>
+  <h3>부암동 백사실계곡</h3>
+  <p class="spot-line">도심 속에 숨은 맑은 계곡</p>
 </a><a class="spot-card" href="spot/yeouido-hangang-park.html">
+  <div class="spot-card-img"><img src="images/yeouido-hangang-park-a.jpg" alt="여의도 한강공원 벚꽃길" loading="lazy" width="640" height="480"></div>
   <div class="spot-card-top" style="--accent:#3F6C4F">
     <span class="tag tag-cat">자연</span>
     <span class="tag tag-region">서울</span>
@@ -87,45 +144,19 @@
   <h3>여의도 한강공원 벚꽃길</h3>
   <p class="spot-line">봄이면 터널이 되는 벚꽃길</p>
 </a><a class="spot-card" href="spot/ikseondong.html">
+  <div class="spot-card-img"><img src="images/ikseondong-a.jpg" alt="익선동 한옥거리" loading="lazy" width="640" height="480"></div>
   <div class="spot-card-top" style="--accent:#B5732B">
     <span class="tag tag-cat">이색</span>
     <span class="tag tag-region">서울</span>
   </div>
   <h3>익선동 한옥거리</h3>
   <p class="spot-line">좁은 골목 속 레트로 감성 카페거리</p>
-</a><a class="spot-card" href="spot/soraeseupji.html">
-  <div class="spot-card-top" style="--accent:#3F6C4F">
-    <span class="tag tag-cat">자연</span>
-    <span class="tag tag-region">인천·경기</span>
-  </div>
-  <h3>소래습지생태공원</h3>
-  <p class="spot-line">염전과 갈대가 만드는 노을 실루엣</p>
-</a><a class="spot-card" href="spot/incheon-chinatown.html">
-  <div class="spot-card-top" style="--accent:#B5732B">
-    <span class="tag tag-cat">이색</span>
-    <span class="tag tag-region">인천·경기</span>
-  </div>
-  <h3>인천 차이나타운</h3>
-  <p class="spot-line">붉은 등과 패루가 이어지는 이국적인 거리</p>
-</a><a class="spot-card" href="spot/wolmido.html">
-  <div class="spot-card-top" style="--accent:#33547A">
-    <span class="tag tag-cat">도시</span>
-    <span class="tag tag-region">인천·경기</span>
-  </div>
-  <h3>월미도</h3>
-  <p class="spot-line">놀이기구와 바다가 함께 보이는 항구 풍경</p>
 </a></div>
 </section>
 
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <div class="footer-brand"><span class="logo-frame">FRAME</span>프레임 코리아</div>
-    <nav class="footer-links">
-      <a href="about.html">소개</a>
-      <a href="privacy.html">개인정보처리방침</a>
-      <a href="terms.html">이용약관</a>
-      <a href="contact.html">문의</a>
-    </nav>
     <p class="footer-copy">© 2026 프레임 코리아. 사진 촬영 시 사유지·문화재 보호구역 안내를 반드시 확인하세요.</p>
   </div>
 </footer>
